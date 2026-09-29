@@ -1,0 +1,3 @@
+# Keeps this folder in git.
+# Drop about-maungu.jpg and image1.jpg here — index.html references them
+# as images/story/about-maungu.jpg and images/story/image1.jpg (currently 404).

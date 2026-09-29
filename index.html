@@ -17,7 +17,7 @@ href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family
 rel="stylesheet"
 >
 
-<link rel="stylesheet" href="maungu-home.css" />
+<link rel="stylesheet" href="css/maungu-home.css" />
 </head>
 
 <body>
@@ -32,8 +32,9 @@ HEADER / NAVBAR
 
 <nav class="maungu-nav-links" aria-label="Primary navigation">
 <a href="#home">Home</a>
-<a href="#features">Features</a>
 <a href="#maunguStory">About us</a>
+<a href="#features">Features</a>
+
 <a href="#reviews">Reviews</a>
 </nav>
 
@@ -75,7 +76,7 @@ LANDING PAGE
 <section class="maungu-hero" id="home" aria-labelledby="maunguHeroTitle">
 <div class="maungu-hero-media">
 <!-- Changed image path -->
-<img src="images/hero-2.jpg" alt="Maungu fashion campaign" />
+<img src="images/hero/hero-2.jpg" alt="Maungu fashion campaign" />
 </div>
 <div class="maungu-hero-overlay"></div>
 <div class="maungu-hero-content container">
@@ -132,32 +133,32 @@ and accessories; we curate a standard of character, quality, and uncompromising 
 <div class="slider-track" id="momentsTrack">
 
 <article class="moment-card">
-<img src="images/hero-3.jpg" alt="Morning outfit in soft natural light" loading="lazy">
+<img src="images/hero/hero-3.jpg" alt="Morning outfit in soft natural light" loading="lazy">
 <div><span>THE MORNING</span><h3>Ease Into the Day</h3><p>Soft layers for slow starts and quick ones alike.</p></div>
 </article>
 
 <article class="moment-card">
-<img src="images/about-maungu.jpg" alt="Sharp outfit for an important meeting" loading="lazy">
+<img src="images/story/about-maungu.jpg" alt="Sharp outfit for an important meeting" loading="lazy">
 <div><span>THE MEETING</span><h3>Command the Room</h3><p>Tailored pieces that carry the moment with you.</p></div>
 </article>
 
 <article class="moment-card">
-<img src="images/image1.jpg" alt="Bold look for a night out" loading="lazy">
+<img src="images/story/image1.jpg" alt="Bold look for a night out" loading="lazy">
 <div><span>THE NIGHT OUT</span><h3>Make an Entrance</h3><p>Statement fits for the nights that matter.</p></div>
 </article>
 
 <article class="moment-card">
-<img src="images/applooks.jpg" alt="Relaxed weekend outfit" loading="lazy">
+<img src="images/app/applooks.jpg" alt="Relaxed weekend outfit" loading="lazy">
 <div><span>THE WEEKEND</span><h3>Off Duty, On Point</h3><p>Easy fits for the days that are yours alone.</p></div>
 </article>
 
 <article class="moment-card">
-<img src="images/coming_soon.jpg" alt="Travel-ready outfit" loading="lazy">
+<img src="images/campaign/coming_soon.jpg" alt="Travel-ready outfit" loading="lazy">
 <div><span>THE TRAVEL DAY</span><h3>Pack Light, Arrive Ready</h3><p>Pieces built to move as fast as you do.</p></div>
 </article>
 
 <article class="moment-card">
-<img src="images/coming_soon1.jpg" alt="Outfit for a celebration" loading="lazy">
+<img src="images/campaign/coming_soon1.jpg" alt="Outfit for a celebration" loading="lazy">
 <div><span>THE CELEBRATION</span><h3>Dress the Moment</h3><p>Made for the nights worth remembering.</p></div>
 </article>
 
@@ -204,7 +205,7 @@ Layout: normal text (left) | divider | hero text (right)
 
 <section class="maungu-originals">
 <div class="maungu-originals-image">
-<img src="images/coming_soon1.jpg" alt="Maungu Originals preview" loading="lazy">
+<img src="images/campaign/coming_soon1.jpg" alt="Maungu Originals preview" loading="lazy">
 </div>
 <div class="maungu-originals-copy container">
 <span class="maungu-kicker">04 / COMING SOON</span>
@@ -227,15 +228,15 @@ Layout: normal text (left) | divider | hero text (right)
 
 <div class="fixed-card-grid" aria-label="Maungu stories">
 <article class="moment-card">
-<img src="images/about-maungu.jpg" alt="The Maungu story" loading="lazy">
+<img src="images/story/about-maungu.jpg" alt="The Maungu story" loading="lazy">
 <div><span>THE BRAND</span><h3>Future Begins With Foresight</h3><p>The Premium Fragrance.</p></div>
 </article>
 <article class="moment-card">
-<img src="images/image1.jpg" alt="Maungu style story" loading="lazy">
+<img src="images/story/image1.jpg" alt="Maungu style story" loading="lazy">
 <div><span>STYLE GUIDE</span><h3>Foresight Facilitates Renovation</h3><p>Unique And Excellent Design.</p></div>
 </article>
 <article class="moment-card">
-<img src="images/hero-3.jpg" alt="Maungu campaign" loading="lazy">
+<img src="images/hero/hero-3.jpg" alt="Maungu campaign" loading="lazy">
 <div><span>CAMPAIGN</span><h3>Combines Classic and Fashion</h3><p>Casual Natural With a Calm smile.</p></div>
 </article>
 </div>
@@ -258,10 +259,11 @@ Layout: normal text (left) | divider | hero text (right)
       <span>your pocket.</span>
     </h2>
 
+    <!-- One lead line only: the 01 / 02 / 03 strip below already
+         lists what the app does, so this must not repeat it. -->
     <p>
-      Your Maungu experience, wherever you go. Discover new pieces,
-      save what catches your eye, manage your bag and keep up with
-      every order from one simple mobile experience.
+      A focused, personal space for the way you move &mdash;
+      simple, quick, always with you.
     </p>
 
     <div class="app-features">
@@ -303,7 +305,7 @@ Layout: normal text (left) | divider | hero text (right)
 
     <div class="phone phone-back">
       <div class="phone-screen">
-        <img src="images/coming_soon.jpg" alt="Maungu mobile experience">
+        <img src="images/campaign/coming_soon.jpg" alt="Preview of the Maungu mobile app">
       </div>
     </div>
 
@@ -319,14 +321,14 @@ Layout: normal text (left) | divider | hero text (right)
         </div>
 
         <img
-          src="images/applooks.jpg"
-          alt="Maungu app preview"
+          src="images/app/applooks.jpg"
+          alt="Maungu app fashion preview"
         >
 
         <div class="phone-ui-card">
           <small>THE LATEST</small>
           <strong>Find your moment.</strong>
-          <span>New pieces. New moods. Your style.</span>
+          <span>New moods. Your style.</span>
         </div>
 
       </div>
@@ -339,14 +341,89 @@ Layout: normal text (left) | divider | hero text (right)
 
 <section class="maungu-proof" id="reviews">
 <div class="container">
-<span class="maungu-kicker">07 / PEOPLE OF MAUNGU</span>
-<h2>Style becomes better when <em>people make it their own.</em></h2>
-<p class="sr-only">Customer rating metrics</p>
-<div class="proof-grid">
-<div><strong>4.9+</strong><span>Customer rating</span></div>
-<div><strong>01</strong><span>Growing fashion world</span></div>
-<div><strong>&infin;</strong><span>Ways to express yourself</span></div>
-</div>
+
+  <!-- Two thirds of the width carry the copy; the last third is kept
+       for the reviews picture (images/reviews/reviews.jpg). -->
+  <div class="proof-copy">
+
+    <span class="maungu-kicker">07 / PEOPLE OF MAUNGU</span>
+
+    <h2>Style becomes better when <em>people make it their own.</em></h2>
+
+    <p class="sr-only">Customer rating metrics</p>
+    <div class="proof-grid">
+      <div><strong>4.9+</strong><span>Customer rating</span></div>
+      <div><strong>01</strong><span>Growing fashion world</span></div>
+      <div><strong>&infin;</strong><span>Ways to express yourself</span></div>
+    </div>
+
+    <!-- Early access notes. Each quote describes something the Maungu
+         app will really do - discover, save, track - so the reviews
+         speak for the app that is on its way. -->
+    <p class="proof-lead">
+      Early access members are already telling us what they want from the app.
+    </p>
+
+    <ul class="proof-reviews">
+
+      <li class="proof-review">
+        <span class="proof-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="sr-only">Rated 5 out of 5</span>
+
+        <blockquote>
+          <p>Everything Maungu in one place on my phone &mdash; the new pieces
+             and the categories I actually buy, with nothing else in the way.</p>
+        </blockquote>
+
+        <p class="proof-review-by">
+          <span>Ama K. &middot; Accra</span>
+          <span class="proof-review-tag">Discover</span>
+        </p>
+      </li>
+
+      <li class="proof-review">
+        <span class="proof-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="sr-only">Rated 5 out of 5</span>
+
+        <blockquote>
+          <p>I tap the heart on the pieces I like and come back for them when
+             payday lands. No more screenshots, no more lost links.</p>
+        </blockquote>
+
+        <p class="proof-review-by">
+          <span>Nana Y. &middot; Kumasi</span>
+          <span class="proof-review-tag">Save</span>
+        </p>
+      </li>
+
+      <li class="proof-review">
+        <span class="proof-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="sr-only">Rated 5 out of 5</span>
+
+        <blockquote>
+          <p>Order updates are the part I will use most &mdash; confirmed, on the
+             way, delivered &mdash; without having to ask anyone.</p>
+        </blockquote>
+
+        <p class="proof-review-by">
+          <span>Efua M. &middot; Takoradi</span>
+          <span class="proof-review-tag">Track</span>
+        </p>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <figure class="proof-media">
+    <img
+      src="images/reviews/reviews.jpg"
+      alt="Customers reviewing the Maungu app"
+      loading="lazy"
+    >
+    <figcaption>A look at the reviews inside the Maungu app &mdash; coming soon.</figcaption>
+  </figure>
+
 </div>
 </section>
 

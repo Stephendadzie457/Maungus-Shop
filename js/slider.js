@@ -436,7 +436,7 @@
 
   var MOMENT_SLIDES = [
     {
-      image: 'images/hero-1.jpg',
+      image: 'images/hero/hero-1.jpg',
       alt: 'Everyday fashion',
       number: '01',
       title: 'Everyday',
@@ -444,7 +444,7 @@
       link: '#shop'
     },
     {
-      image: 'images/hero-3.jpg',
+      image: 'images/hero/hero-3.jpg',
       alt: 'Special occasion fashion',
       number: '02',
       title: 'Make an entrance',
@@ -452,7 +452,7 @@
       link: '#shop'
     },
     {
-      image: 'images/hero-2.jpg',
+      image: 'images/hero/hero-2.jpg',
       alt: 'Accessories and finishing touches',
       number: '03',
       title: 'Finishing touches',
